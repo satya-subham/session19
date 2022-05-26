@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.creative {
+    display: flex;
+}
+.header-container .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    
+    
+}
+h3 {
+    color: #fff;
+    font-size: 25px;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+button {
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    padding: 5px;
+    padding-left: 13px;
+    border: none;
+}
+.section-1 {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.man {
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid white; */
+}
+.intro {
+    width: 300px;
+    height: 400px;
+    /* border: 1px solid white; */
+    color: white;
+    font-size: larger;
+       
+}
+.cv-btn {
+    width:200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    padding-left: 13px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.section-2 {
+    width: 100%;
+    height: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.man2 {
+    width: 400px;
+    height: 400px;
+    
+}
+.about-me {
+    width: 300px;
+    height: 300px;
+    
+}
+.about-me h2, .about-me p {
+    font-size: larger;
+    padding: 10px;
+    color: crimson;
+}
